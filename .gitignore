@@ -1,0 +1,72 @@
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+#*.dll
+*.lib
+*.sbr
+output_log.txt
+
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+############
+# Unity3D .gitignore file.
+#	 Store this file at the root of your local repository.
+
+.DS_Store
+Bundles
+Builds/*
+Library
+Library/AssetImportState
+Library/AssetServerCacheV3
+Library/assetDatabase3
+Library/FailedAssetImports.txt
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/ShaderCache
+Library/cache
+Library/expandedItems
+Library/metadata
+Library/previews
+Library/guidmapper
+Girls/Assets/StreamingAssets/MatchLog/*
+Girls/Assets/StreamingAssets/SessionLog/*
+*MatchLog*
+*SessionLog*
+
+*PanicButton*
+
+*.vs*
+
+obj
+Temp
+*.csproj
+*.pidb
+*.sln
+build
+
+############
+#Assets/Scripts/$AlphaNumericSort.cs
+#Assets/Scripts/$AlphaNumericSort.cs.meta
+Girls/Girls.userprefs
