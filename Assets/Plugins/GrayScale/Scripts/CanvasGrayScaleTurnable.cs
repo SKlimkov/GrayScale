@@ -43,12 +43,7 @@ namespace GrayScale
 
         #endregion
 
-        #region SWITCHEABLE
-
-        private float ConvertIsOn(bool isOn)
-        {
-            return isOn == true ? 1f : 0f;
-        }
+        #region SWITCHEABLE        
 
         [SerializeField]
         private Material grayScaleMaterial;
